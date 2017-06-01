@@ -1,8 +1,8 @@
 * {
-	font-size: 0;
+	font-size: 0 !important;
 }
 
 *:before {
-	content: 'covfefe';
-	font-size: initial;
+	content: 'covfefe' !important;
+	font-size: initial !important;
 }

@@ -1,0 +1,9 @@
+* {
+	font-size: 0 !important;
+ 	background-image: url('data:image/svg+xml;utf8,<svg width="320px" height="320px" viewBox="0 -100 200 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" ><text width="320px" height="320px" alignment-baseline="central" font-family="helvetica" font-size="15vw" fill="black">covfefe</text></svg>') !important;
+}
+
+*:before {
+	content: 'covfefe' !important;
+	font-size: initial !important;
+}
