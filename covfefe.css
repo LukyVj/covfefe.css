@@ -1,9 +1,8 @@
 * {
-  text-indent: -9999999999px !important
+	font-size: 0;
 }
 
 *:before {
-  content: 'covfefe';
-  display: inline-block;
-  text-indent: 9999999999px !important
+	content: 'covfefe';
+	font-size: initial;
 }
