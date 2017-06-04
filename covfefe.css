@@ -2,7 +2,8 @@
 	font-size: 0 !important;
 }
 
-*:before {
+*:before,
+*:after {
 	content: 'covfefe' !important;
 	font-size: initial !important;
 }
